@@ -117,7 +117,7 @@ export default function Home() {
           <div className="hero-visual reveal" style={{ transitionDelay: '.25s' }}>
             <div className="sushi-wrap">
               <div className="sushi-glow" />
-              <img src="/hero.jpg" alt="Sushi Premium Tokyo Fresh" className="sushi-img" />
+              <img src="/hero.png" alt="Sushi Premium Tokyo Fresh" className="sushi-img" />
               <div className="sushi-seal">
                 <span className="seal-jp">毎日</span>
                 <span className="seal-rule" />
@@ -139,9 +139,9 @@ export default function Home() {
           </div>
           <div className="dest-list">
             {[
-              { num: '01', name: 'Combinado Premium', desc: 'Seleção especial com 20 peças de cortes nobres — nigiri e maki da estação', price: 'R$79', img: '/combinado.jpg' },
-              { num: '02', name: 'Temaki Especial', desc: 'Alga crocante artesanal com recheio fresco, servida na hora do preparo', price: 'R$22', img: '/temaki.jpg' },
-              { num: '03', name: 'Hot Roll', desc: 'Crocante por fora, macio e saboroso por dentro — um favorito da casa', price: 'R$18', img: '/hotroll.jpg' },
+              { num: '01', name: 'Combinado Premium', desc: 'Seleção especial com 20 peças de cortes nobres — nigiri e maki da estação', price: 'R$79', img: '/combinado.png' },
+              { num: '02', name: 'Temaki Especial', desc: 'Alga crocante artesanal com recheio fresco, servida na hora do preparo', price: 'R$22', img: '/temaki.png' },
+              { num: '03', name: 'Hot Roll', desc: 'Crocante por fora, macio e saboroso por dentro — um favorito da casa', price: 'R$18', img: '/hotroll.png' },
             ].map((item, i) => (
               <div className="dest-item reveal" key={i} style={{ transitionDelay: `${i * 0.1}s` }}>
                 <div>
